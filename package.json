@@ -1,0 +1,30 @@
+{
+  "name": "tesi-triennale",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NozdryukhinMaksim/TESItriennale.git"
+  },
+  "author": "NozdryukhinMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NozdryukhinMaksim/TESItriennale/issues"
+  },
+  "homepage": "https://github.com/NozdryukhinMaksim/TESItriennale#readme",
+  "description": "",
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.2",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0"
+  }
+}
